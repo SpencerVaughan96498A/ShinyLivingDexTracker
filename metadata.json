@@ -1,0 +1,5 @@
+{
+  "name": "Shiny Living Dex Tracker",
+  "description": "A sprite-focused application to track your shiny living dex progress across all generations, featuring a classic Pokémon Box aesthetic.",
+  "requestFramePermissions": []
+}
