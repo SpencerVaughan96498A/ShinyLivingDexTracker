@@ -11,7 +11,7 @@ import {
   signOut, 
   User 
 } from 'firebase/auth';
-import { auth } from './firebase';
+import app, { auth } from './firebase';
 import { GENERATIONS, SHINY_LOCKED, GAME_SHINY_LOCKS } from './constants';
 import { Pokemon } from './types';
 import { LogIn, LogOut, ChevronDown, ChevronUp, Lock, Sparkles, Footprints, Search, Filter } from 'lucide-react';
