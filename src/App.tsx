@@ -100,6 +100,8 @@ export default function App() {
 // No demo IDs for production
 const DEMO_IDS: number[] = [];
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || "";
+
 function ShinyDexApp() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
@@ -133,7 +135,7 @@ function ShinyDexApp() {
       }
 
       try {
-        const response = await fetch(`/api/caught/${user.uid}`);
+        const response = await fetch(`${API_BASE_URL}/api/caught/${user.uid}`);
         const data = await response.json();
         const map: Record<string, boolean> = {};
         if (data && data.caughtNames && Array.isArray(data.caughtNames)) {
@@ -259,7 +261,7 @@ function ShinyDexApp() {
     if (!user) return;
 
     try {
-      await fetch(`/api/caught/${user.uid}`, {
+      await fetch(`${API_BASE_URL}/api/caught/${user.uid}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ pokemonName: pokemon.name })

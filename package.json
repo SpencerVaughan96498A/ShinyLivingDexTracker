@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "node dev.js",
     "build": "vite build",
+    "start": "NODE_ENV=production node dev.js",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
@@ -15,10 +16,12 @@
     "@vitejs/plugin-react": "^5.0.4",
     "clsx": "^2.1.1",
     "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
     "express": "^4.22.1",
     "firebase": "^12.10.0",
     "jiti": "^2.6.1",
     "lucide-react": "^0.546.0",
+    "mongodb": "^7.1.0",
     "motion": "^12.23.24",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
