@@ -4,7 +4,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  server: {
-    base: "/ShinyLivingDexTracker/"
+  base: '/ShinyLivingDexTracker/',
+  build: {
+    sourcemap: false,
   },
 });
