@@ -13,13 +13,12 @@ export const GENERATIONS: Generation[] = [
 ];
 
 export const SHINY_LOCKED = [
-  'victini', 'keldeo', 'meloetta', 'hoopa', 'volcanion', 'cosmog', 'cosmoem', 
-  'magearna', 'marshadow', 'zeraora', 'meltan', 'melmetal', 'melmetal-gmax', 
-  'zacian', 'zamazenta', 'eternatus', 'kubfu', 'urshifu-single-strike', 
+  'victini', 'hoopa', 'cosmog', 'cosmoem', 
+  'magearna', 'marshadow', 'melmetal-gmax', 
+  'kubfu', 'urshifu-single-strike', 
   'urshifu-rapid-strike', 'urshifu-single-strike-gmax', 'urshifu-rapid-strike-gmax', 
-  'zarude', 'glastrier', 'spectrier', 'calyrex', 'enamorus', 'gimmighoul', 
-  'gholdengo', 'wo-chien', 'chien-pao', 'ting-lu', 'chi-yu', 'koraidon', 
-  'miraidon', 'okidogi', 'munkidori', 'fezandipiti', 'ogerpon', 'ursaluna-bloodmoon', 
+  'zarude', 'glastrier', 'spectrier', 'calyrex', 'okidogi', 'munkidori', 
+  'fezandipiti', 'ogerpon', 'ursaluna-bloodmoon', 
   'walking-wake', 'iron-leaves', 'gouging-fire', 'raging-bolt', 'iron-boulder', 
   'iron-crown', 'terapagos', 'pecharunt', 'magearna-original'
 ];
